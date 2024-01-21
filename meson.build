@@ -130,4 +130,5 @@ foreach name, section : manpages
     install_dir : join_paths(mandir, 'man@0@'.format(section)))
 endforeach
 
+subdir('python-sessiond')
 subdir('test')
